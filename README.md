@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+![Logo Duosytem](https://www.duosystem.com.br/wp-content/uploads/2022/05/duoverdinho-150x150.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TaskList
 
-Currently, two official plugins are available:
+> Para atividades corriqueiras.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TaskList desenvolvida para validação de conhecimento e boas práticas.
 
-## Expanding the ESLint configuration
+## Começando
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Para rodar este projeto instale:
 
-- Configure the top-level `parserOptions` property like this:
+- node.js (https://nodejs.org/pt-br/download)
+- pnpm - globalmente (https://pnpm.io/pt/installation)
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+### Development
+
+Siga os passos abaixo para rodar o projeto em development:
+
+```shell
+pnpm install
+pnpm dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Building
+
+Para realizar o build execute:
+
+```shell
+pnpm build
+```
+
+## Links
+
+- Project homepage: https://duosystem.sasolutions.com.br/
+- Repository: https://github.com/sasolutions-oficial/duosystem
+
