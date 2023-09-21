@@ -1,4 +1,4 @@
-![Logo Duosytem](https://www.duosystem.com.br/wp-content/uploads/2022/05/duoverdinho-150x150.png)
+![Logo Duosytem](/src/assets/duoverdinho-150x150.png)
 
 # TaskList
 
