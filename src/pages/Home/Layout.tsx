@@ -4,9 +4,6 @@ import {useWindowSize} from 'usehooks-ts';
 
 export const Layout = () => {
  const {height} = useWindowSize();
-
- console.log(height);
-
  return (
   <Container height={height}>
    <TaskList />
